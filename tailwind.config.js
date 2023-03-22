@@ -13,28 +13,29 @@ module.exports = {
         '3xl': '0px 8px 20px rgba(0, 0, 0, 0.06)',
       },
       fontSize: {
+        '3xxl': ['32px', '36px'],
         '4xxl': ['40px', '48px'],
         '6xxl': ['60px', '68px'],
       },
       colors:{
-        'PrimaryBlue':'#525FE1',
-        'PrimaryGrey':'#242636',
+        'PrimaryYellow':'#F6C60D',
+        'PrimaryBlue':'#00AAEF',
         'PrimaryDark':'#6F6B80',
-        'SecondaryGrey':'#231F40',
+        'SecondaryGrey':'#797979',
         'SecondaryBleue':'#6C77E5',
         'ThirdPampus':'#B38180',
         'ThirdGrey':'#F5F5F5',
       },
       backgroundImage:{
-        'BannerBgc': "url('/public/assets/images/edu-banner.jpg')",
-        'WorkshopBgc': "url('/public/assets/images/video-home-3-bg.png')",
-        'Testimonial': "url('/public/assets/images/home-three-testimonial.jpg')",
+        'InvestmentBgc': "url('/public/assets/images/investment.jpg')",
       },
       borderRadius: {
         'ss': '5px',
       },
       fontFamily: {
-        'Urbanist': ['Urbanist', 'sans-serif',],
+        'lato': ['Lato', 'sans-serif',],
+        'Poppins': ['Poppins', 'sans-serif',],
+
       },
       screens: {
         'llg': '1180px',
